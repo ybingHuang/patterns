@@ -1,0 +1,15 @@
+**/target/
+*.iml
+*.idea
+**/*.log*
+
+**/.project
+**/.settings
+**/.project
+**/.classpath
+
+.gitignore.swp
+*.pdf
+*.zip
+
+**/dump.rdb
