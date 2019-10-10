@@ -21,10 +21,11 @@ public class YbingSingleton implements Serializable {
 
     public static void main(String[] args) throws Exception {
        // YbingSingleton singleton = YbingSingleton.getInstance();
-        Constructor constructor =  YbingSingleton.class.getDeclaredConstructor(null);
-        constructor.setAccessible(true);
-        YbingSingleton singleton = (YbingSingleton)constructor.newInstance(null);
-        System.out.println(singleton);
+//        Constructor constructor =  YbingSingleton.class.getDeclaredConstructor(null);
+//        constructor.setAccessible(true);
+//        YbingSingleton singleton = (YbingSingleton)constructor.newInstance(null);
+//        System.out.println(singleton);
+
     }
 
     private Object readResolve() {
